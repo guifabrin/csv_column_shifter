@@ -1,0 +1,31 @@
+# Arquivos de compilação Python
+*.pyc
+__pycache__/
+
+# Ambientes virtuais (ex: venv, env, etc.)
+venv/
+env/
+
+# Arquivos de configuração
+*.env
+*.cfg
+
+# Arquivos de cache
+*.cache
+.cache/
+
+# Arquivos de log
+*.log
+
+# Arquivos gerados automaticamente
+*.csv
+*.xlsx
+
+# Dependências, se estiver usando pipenv ou poetry
+Pipfile
+Pipfile.lock
+poetry.lock
+
+build/
+.idea/
+.spec
